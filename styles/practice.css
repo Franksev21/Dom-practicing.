@@ -1,0 +1,17 @@
+.header-1{
+  font-family: montserrat;
+  text-align: center;
+  padding-bottom: 6px;
+}
+.paragraph{
+  font-family:montserrat;
+  text-align: center;
+  padding-top: 6px;
+}
+.link:hover{
+  text-decoration: underline;
+}
+.link{
+  cursor: pointer;
+  margin-left: 5px;
+}

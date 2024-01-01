@@ -1,0 +1,153 @@
+.subscribe-button {
+  background-color: rgb(200, 0, 0);
+  color: white;
+  border: none;
+  padding-right: 16px;
+  padding-left: 16px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  border-radius: 2px;
+  cursor: pointer;
+  margin-right: 8px;
+  transition: opacity 0.15s;
+  vertical-align: top;
+}
+
+.subscribe-button:hover {
+  opacity: 0.8;
+
+}
+
+.subscribe-button:active {
+
+  opacity: 0.5;
+
+}
+
+.join-button {
+  background-color: white;
+  border-color: rgb(41, 174, 211);
+  border-style: solid;
+  border-width: 1px;
+  color: rgb(41, 118, 211);
+  padding-right: 16px;
+  padding-left: 16px;
+  padding-top: 7px;
+  vertical-align: top;
+  padding-bottom: 6px;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: background-color 0.15s, color 0.15s
+}
+
+.join-button:hover {
+  background-color: rgb(41, 174, 211);
+  color: white;
+}
+
+.join-button:active {
+
+  opacity: 0.7;
+
+}
+
+.tweet-button {
+  background-color: rgb(29, 155, 240);
+  color: white;
+  border: none;
+  padding-right: 16px;
+  padding-left: 16px;
+  padding-top: 7px;
+  vertical-align: top;
+  padding-bottom: 7px;
+  border-radius: 16px;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  margin-left: 8px;
+  margin-top: 2px;
+  transition: box-shadow 0.15s;
+
+}
+
+.tweet-button:hover {
+  box-shadow: 10px 5px 10px rgb(0, 0, 0, 0.6);
+
+}
+
+.request-button {
+  background-color: black;
+  color: white;
+  height: 36px;
+  border: none;
+  margin-left: 8px;
+}
+
+.addCart-button {
+  background-color: rgb(255, 216, 20);
+  border: none;
+  border-radius: 16px;
+  height: 36px;
+  width: 150px;
+  margin-left: 8px;
+}
+
+.signUp-button {
+  background-color: rgb(46, 164, 79);
+  border: none;
+  color: white;
+  border-radius: 5px;
+  height: 36px;
+  width: 110px;
+  font-weight: bold;
+  font-size: 15px;
+  margin-left: 8px;
+}
+
+.getStarted-button {
+  background-color: rgb(131, 82, 179);
+  border: none;
+  color: white;
+  border-radius: 5px;
+  height: 36px;
+  width: 110px;
+  margin-left: 8px;
+}
+
+.download-button {
+  background-color: white;
+  border: none;
+  border-style: solid;
+  color: gray;
+  border-radius: 5px;
+  height: 36px;
+  width: 110px;
+  font-weight: bold;
+  font-size: 15px;
+  margin-left: 8px;
+}
+
+.apply-button {
+  background-color: rgb(10, 102, 194);
+  border: none;
+  color: white;
+  border-radius: 16px;
+  height: 36px;
+  width: 250px;
+  font-weight: bold;
+  font-size: 15px;
+  margin-top: 8px;
+}
+
+.save-button {
+  background-color: white;
+  color: rgb(10, 102, 194);
+  border-radius: 16px;
+  border-style: solid;
+  border-width: 1px;
+  height: 36px;
+  width: 62px;
+  font-weight: bold;
+  font-size: 15px;
+  margin-top: 8px;
+}
