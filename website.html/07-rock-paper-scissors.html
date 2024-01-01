@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Rock Paper Scissors</title>
+</head>
+
+<body>
+  <h1>Rock Paper Scissors</h1>
+  <button onclick="
+  playGame('rock');
+">Rock</button>
+
+  <button onclick="
+  playGame('paper');
+    ">Paper</button>
+
+  <button onclick="
+  playGame('scissors');
+  ">Scissors</button>
+
+
+  <div class="link" style="display: flex;">
+    <a href="" style="
+  display: block;
+  margin-top: 50px;
+  margin-right: 0px;
+  ">Click here </a>
+  </div>
+
+
+  <script>
+    function playGame(playerMove) {
+      const computerMove = pickComputerMove();
+
+      let result = '';
+
+      if (playGame === 'scissors') {
+
+        if (computerMove === 'rock') {
+          result = 'You lose.';
+        }
+        else if (computerMove === 'paper') {
+          result = 'You Win';
+        }
+        else if (computerMove === 'Scissors') {
+          result = 'Tie.';
+        }
+
+      } else if (playerMove === 'paper') {
+        if (computerMove === 'rock') {
+          result = 'you win.';
+        }
+        else if (computerMove === 'paper') {
+          result = 'Tie.';
+        }
+        else if (computerMove === 'Scissors') {
+          result = 'You lose';
+        }
+
+      } else if (playerMove === 'rock') {
+        if (computerMove === 'rock') {
+          result = 'Tie.';
+        }
+        else if (computerMove === 'paper') {
+          result = 'You lose.';
+        }
+        else if (computerMove === 'Scissors') {
+          result = 'You win.';
+        }
+      }
+      alert(`You picked ${playerMove}. Computer picked ${computerMove}. ${result}`);
+    }
+
+    function pickComputerMove() {
+      const randomNumber = Math.random();
+
+      let computerMove = '';
+
+      if (randomNumber >= 0 && randomNumber < 1 / 3) {
+
+        let computerMove = 'rock';
+      } else if (randomNumber >= 1 / 3 && randomNumber < 2 / 3) {
+
+        let computerMove = 'paper';
+      }
+      else if (randomNumber >= 2 / 3 && randomNumber < 1) {
+        computerMove = 'Scissors';
+      }
+      return computerMove;
+    }
+
+    for (let current = 20; ; current++) {
+      if (current % 7 == 0) {
+        console.log(current);
+        break;
+      }
+    }
+
+    console.log("The future says:", future());
+
+    function future() {
+      return"you'll never have flying cars"
+    }
+
+    function minus (a, b) {
+      if (b === undefined) 
+      return -a;
+    else return a - b;
+    }
+    console.log(minus(NaN));
+
+
+    function power(base, exponent = 2) {
+  let result = 1;
+  for (let count = 0; count < exponent; count++) {
+    result *= base;
+  }
+  return result;
+  
+}
+
+console.log(power(4));
+// → 16
+console.log(power(2, 6));
+// → 64
+  </script>
+</body>
+
+</html>
